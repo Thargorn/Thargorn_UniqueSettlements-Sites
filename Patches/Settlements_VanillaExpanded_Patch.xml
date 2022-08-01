@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Factions Expanded - Classical</li>
+    </mods>
+
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[@Name="VFEC_RepublicBase"]/modExtensions/li[@Class="KCSG.FactionSettlement"]/chooseFromlayouts</xpath>
+      <value>
+              <li>TH_UniqueClassical_1_Villa</li>
+              <li>TH_UniqueClassical_2_Temple</li>
+              <li>TH_UniqueClassical_3_Senate</li>
+              <li>TH_UniqueClassical_4_Mouseion</li>
+      </value>
+    </match>
+  </Operation>
+
+  </Patch>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<KCSG.StructureLayoutDef>
+  <defName>TH_SolarPinhole</defName>
+  <layouts>
+    <li>
+      <li>SolarPinhole_North</li>
+    </li>
+  </layouts>
+  <modRequirements>
+    <li>ludeon.rimworld.royalty</li>
+  </modRequirements>
+  <spawnConduits>false</spawnConduits>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>TH_Fire</defName>
+  <layouts>
+    <li>
+      <li>Fire_North</li>
+    </li>
+  </layouts>
+</KCSG.StructureLayoutDef>
+
+<KCSG.StructureLayoutDef>
+  <defName>TH_Smoke</defName>
+  <layouts>
+    <li>
+      <li>Gas_Smoke_North</li>
+    </li>
+  </layouts>
+  <spawnConduits>false</spawnConduits>
+</KCSG.StructureLayoutDef>
+
+</Defs>

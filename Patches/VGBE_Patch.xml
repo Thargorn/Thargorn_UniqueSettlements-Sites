@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+		<Operation Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<KCSG.SettlementLayoutDef ParentName="VBGE_BaseEmpire">
+							<defName>TH_UniqueEmpire</defName>
+							<settlementSize>150,150</settlementSize>
+							<centerBuildings Inherit="False">
+							<centerSize>150,150</centerSize>
+								<spaceAround>1</spaceAround>
+								<allowedStructures>
+								</allowedStructures>
+								<centralBuildingTags>
+									<li>TH_UniqueEmpire</li>
+								</centralBuildingTags>
+							</centerBuildings>
+
+<roadOptions>
+      <addMainRoad>false</addMainRoad>
+      <addLinkRoad>false</addLinkRoad>
+    </roadOptions>
+	
+    <stuffableOptions>
+      <randomizeWall>false</randomizeWall>
+      <randomizeFurniture>false</randomizeFurniture>
+    </stuffableOptions>
+    
+	<stockpileOptions>
+      <fillStorageBuildings>true</fillStorageBuildings>
+	  <stockpileValueMultiplier>1.5</stockpileValueMultiplier>
+      <fillWithDefs>
+	    <li>Steel</li>
+        <li>Gold</li>
+        <li>Plasteel</li>
+        <li>Silver</li>
+        <li>Jade</li>
+        <li>ComponentIndustrial</li>
+        <li>Apparel_Parka</li>
+        <li>Apparel_Pants</li>
+        <li>Apparel_BasicShirt</li>
+        <li>Apparel_CollarShirt</li>
+        <li>Apparel_Jacket</li>
+        <li>Apparel_Duster</li>
+        <li>Apparel_FlakVest</li>
+        <li>MechSerumHealer</li>
+		<li>MedicineIndustrial</li>
+        <li>ComponentIndustrial</li>
+        <li>Neutroamine</li>
+        <li>Chemfuel</li>
+        <li>Hyperweave</li>
+        <li>Penoxycyline</li>
+        <li>Beer</li>
+        <li>PsychiteTea</li>
+        <li>WakeUp</li>
+        <li>ReinforcedBarrel</li>
+		<li>Bullet_Revolver</li>
+        <li>Gun_Autopistol</li>
+        <li>Gun_MachinePistol</li>
+        <li>Gun_SmokeLauncher</li>
+        <li>Gun_EmpLauncher</li>
+        <li>Gun_BoltActionRifle</li>
+        <li>Gun_PumpShotgun</li>
+        <li>Gun_ChainShotgun</li>
+        <li>Gun_HeavySMG</li>
+        <li>Gun_LMG</li>
+        <li>Gun_AssaultRifle</li>
+        <li>Gun_SniperRifle</li>
+        <li>Apparel_PowerArmor</li>
+        <li>MechSerumResurrector</li>
+        <li>Gun_ChargeRifle</li>
+        <li MayRequire="ludeon.rimworld.royalty">BroadshieldCore</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_PsyfocusHelmet</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_EltexSkullcap</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_PsyfocusShirt</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_PsyfocusVest</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_PsyfocusRobe</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_RobeRoyal</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_HatLadies</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_Coronet</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_HatTop</li>
+        <li MayRequire="ludeon.rimworld.royalty">Apparel_Crown</li>
+        <li MayRequire="ludeon.rimworld.royalty">PsychicAmplifier</li>
+		<li MayRequire="ludeon.rimworld.royalty">MeleeWeapon_PsyfocusStaff</li>
+        <li MayRequire="ludeon.rimworld.royalty">MeleeWeapon_Zeushammer</li>
+        <li MayRequire="ludeon.rimworld.royalty">MeleeWeapon_MonoSword</li>
+      </fillWithDefs>
+    </stockpileOptions>
+
+    <propsOptions>
+      <addMainRoadProps>false</addMainRoadProps>
+      <addLinkRoadProps>false</addLinkRoadProps>
+      <scatterProps>false</scatterProps>
+    </propsOptions>
+
+    <defenseOptions>
+      <addEdgeDefense>false</addEdgeDefense>
+      <addSandbags>false</addSandbags>
+      <addTurrets>false</addTurrets>
+      <addMortars>false</addMortars>
+		<pawnGroupMultiplier>0.3</pawnGroupMultiplier>
+    </defenseOptions>
+
+						</KCSG.SettlementLayoutDef>
+
+						<KCSG.SettlementLayoutDef ParentName="VBGE_BaseTribal">
+							<defName>TH_UniqueTribal</defName>
+							<settlementSize>150,150</settlementSize>
+							<centerBuildings Inherit="False">
+							<centerSize>150,150</centerSize>
+								<spaceAround>1</spaceAround>
+								<allowedStructures>
+								</allowedStructures>
+								<centralBuildingTags>
+									<li>TH_UniqueTribal</li>
+								</centralBuildingTags>
+							</centerBuildings>
+
+<roadOptions>
+      <addMainRoad>false</addMainRoad>
+      <addLinkRoad>false</addLinkRoad>
+    </roadOptions>
+	
+    <stuffableOptions>
+      <randomizeWall>false</randomizeWall>
+      <randomizeFurniture>false</randomizeFurniture>
+    </stuffableOptions>
+    
+	<stockpileOptions>
+      <fillStorageBuildings>true</fillStorageBuildings>
+	  <stockpileValueMultiplier>1.0</stockpileValueMultiplier>
+      <fillWithDefs>
+	      <li>MedicineHerbal</li>
+        <li>WoodLog</li>
+        <li>ThrumboHorn</li>
+        <li>ElephantTusk</li>
+        <li>Silver</li>
+        <li>Jade</li>
+        <li>Apparel_TribalA</li>
+        <li>Apparel_Parka</li>
+        <li>MeleeWeapon_Club</li>
+        <li>MeleeWeapon_Knife</li>
+        <li>MeleeWeapon_Ikwa</li>
+        <li>MeleeWeapon_Spear</li>
+        <li>Bow_Short</li>
+        <li>Pila</li>
+        <li>Bow_Recurve</li>
+        <li>Bow_Great</li>
+      </fillWithDefs>
+    </stockpileOptions>
+
+    <propsOptions>
+      <addMainRoadProps>false</addMainRoadProps>
+      <addLinkRoadProps>false</addLinkRoadProps>
+      <scatterProps>false</scatterProps>
+    </propsOptions>
+
+    <defenseOptions>
+      <addEdgeDefense>false</addEdgeDefense>
+      <addSandbags>false</addSandbags>
+      <addTurrets>false</addTurrets>
+      <addMortars>false</addMortars>
+		<pawnGroupMultiplier>0.5</pawnGroupMultiplier>
+    </defenseOptions>
+
+		</KCSG.SettlementLayoutDef>
+
+					</value>
+				</li>
+			</operations>
+		</Operation>
+</Patch>

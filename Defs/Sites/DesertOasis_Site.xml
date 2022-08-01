@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <SitePartDef>
+    <defName>TH_DesertOasis</defName>
+    <label>Oasis</label>
+    <description>Description</description>
+    <siteTexture>World/WorldObjects/Caravan</siteTexture>
+    <disallowsAutomaticDetectionTimerStart>true</disallowsAutomaticDetectionTimerStart>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <requiresFaction>true</requiresFaction>
+    <showFactionInInspectString>true</showFactionInInspectString>
+    <tags>
+      <li>TH_DesertOasis</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>TH_DesertOasis</defName>
+    <linkWithSite>TH_DesertOasis</linkWithSite>
+    <order>450</order>
+    <genStep Class="KCSG.GenStep_CustomStructureGen">
+      <structureLayoutDefs>
+        <li>TH_Test</li>
+      </structureLayoutDefs>
+    </genStep>
+  </GenStepDef>
+</Defs>

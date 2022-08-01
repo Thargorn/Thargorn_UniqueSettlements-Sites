@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+    </mods>
+
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[defName="Empire"]/modExtensions/li[@Class="KCSG.CustomGenOption"]/chooseFromSettlements</xpath>
+      <value>
+              <li>TH_UniqueEmpire</li>
+      </value>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+      <xpath>/Defs/FactionDef[@Name="TribeBase"]/modExtensions/li[@Class="KCSG.CustomGenOption"]/chooseFromSettlements</xpath>
+      <value>
+              <li>TH_UniqueTribal</li>
+      </value>
+    </Operation>
+  </Patch>
